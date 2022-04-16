@@ -1,0 +1,30 @@
+.home-wrapper {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-icon {
+    height: 300px;
+    width: 300px;
+}
+
+.home-text {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.home-search {
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.home-search:focus {
+    outline: none;
+}
