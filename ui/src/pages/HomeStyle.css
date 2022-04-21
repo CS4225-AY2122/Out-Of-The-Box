@@ -18,8 +18,18 @@
     font-style: italic;
 }
 
+.home-result {
+    color: white;
+}
+
+.home-result:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .home-search {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 10px 10px 10px 10px;
     font-weight: bold;
     width: 90%;
