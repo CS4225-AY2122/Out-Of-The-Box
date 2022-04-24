@@ -1,0 +1,91 @@
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.home-wrapper {
+    width: 100%;
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    text-align: center;
+}
+
+.home-icon {
+    height: 300px;
+    width: 300px;
+}
+
+.home-text {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.home-result {
+    color: white;
+}
+
+.home-result:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home-movies {
+    color: white;
+}
+
+.home-search {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    width: 60%;
+}
+
+.home-search:focus {
+    outline: none;
+}
+
+.home-divider {
+    margin: 40px 20%;
+}
+
+.genre-wrapper {
+    margin: 0px 30%;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+.home-button {
+    margin: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.home-genres {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.home-button-search {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+/*# sourceMappingURL=ssr-bundle.0e933.css.map*/
