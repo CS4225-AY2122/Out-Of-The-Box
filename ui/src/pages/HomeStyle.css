@@ -1,5 +1,4 @@
 .home-wrapper {
-    height: 100%;
     width: 100%;
     align-items: center;
     display: flex;
@@ -27,14 +26,47 @@
     text-decoration: underline;
 }
 
+.home-movies {
+    color: white;
+}
+
 .home-search {
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 10px 10px 10px 10px;
     font-weight: bold;
-    width: 90%;
+    width: 60%;
 }
 
 .home-search:focus {
     outline: none;
+}
+
+.home-divider {
+    margin: 40px 20%;
+}
+
+.genre-wrapper {
+    margin: 0px 30%;
+    justify-content: center;
+}
+
+.home-button {
+    margin: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.home-genres {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.home-button-search {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
 }
