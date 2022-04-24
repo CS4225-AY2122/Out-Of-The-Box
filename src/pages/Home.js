@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "preact/compat";
 import "./HomeStyle.css";
 import Icon from "../assets/Icon.png";
-import Movies from "../../../moviebank-reverse.json";
-import MoviesTitles from "../../../moviebank.json";
+import Movies from "../../moviebank-reverse.json";
+import MoviesTitles from "../../moviebank.json";
 import searchEngine from "search-engine";
 import {SyncLoader} from "react-spinners";
 import axios from "axios";
