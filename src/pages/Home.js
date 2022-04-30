@@ -69,7 +69,7 @@ export default function Home() {
             if (result.length > 10) {
                 result = result.slice(0, 10);
             }
-            setSearchResult(result);
+            setMovieResult(result);
             setIsLoading(false);
         }).catch(err => {
             console.log(err);
